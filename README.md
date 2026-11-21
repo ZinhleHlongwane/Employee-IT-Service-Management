@@ -197,16 +197,72 @@ The checklist below reflects the current state of the project. Completed items a
 
 - [x] Create the GitHub project repository.
 - [x] Add the initial project README.
-- [ ] Add screenshots of the actual ServiceNow forms and workflows.
+- [x] Add screenshots of the actual ServiceNow forms and workflows.
 - [ ] Add a data model / table relationship diagram.
 - [ ] Add a detailed architecture and workflow document.
 - [ ] Add a security model document after ACL behaviour is verified.
 - [ ] Add a test evidence document.
 - [ ] Record a short project walkthrough.
 
+## Screenshots
+
+The screenshots below show the application interface, configuration, validation rules, and workflow execution evidence from the ServiceNow project.
+
+### IT Incident Management
+
+**Incident record submission**
+
+![IT Incident record form](screenshots/incident-record-form.png)
+
+**Incident workflow configuration**
+
+![IT Incident workflow overview](screenshots/incident-flow-overview.png)
+
+![IT Incident workflow actions](screenshots/incident-flow-actions.png)
+
+**Priority condition**
+
+![IT Incident priority condition](screenshots/incident-priority-condition.png)
+
+**Workflow execution**
+
+![IT Incident flow execution](screenshots/incident-flow-execution-overview.png)
+
+![Email action execution details](screenshots/incident-email-action-execution.png)
+
+![IT Incident execution result](screenshots/incident-flow-execution-result.png)
+
+### Equipment Request Management
+
+**Equipment request submission and validation**
+
+![Equipment request validation](screenshots/equipment-request-validation.png)
+
+**Equipment request record**
+
+![Equipment request record](screenshots/equipment-request-record.png)
+
+![Equipment request records](screenshots/equipment-request-records.png)
+
+**Approval workflow configuration**
+
+![Equipment approval workflow](screenshots/equipment-approval-flow-overview.png)
+
+**Approval details and execution**
+
+![Equipment request approval details](screenshots/equipment-request-approval-details.png)
+
+![Equipment approval execution](screenshots/equipment-approval-execution.png)
+
+![Equipment approval execution steps](screenshots/equipment-approval-execution-steps.png)
+
+![Equipment approval execution result](screenshots/equipment-approval-execution-result.png)
+
+![Equipment approval flow execution](screenshots/equipment-approval-flow-execution.png)
+
 ## Repository structure
 
-Documentation and screenshots will be added as the project develops.
+Documentation and screenshots are organised in the folders shown below.
 
 ```text
 Employee-IT-Service-Management/
